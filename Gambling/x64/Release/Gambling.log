@@ -1,39 +1,42 @@
-﻿  Gambling.cpp
+﻿  Header.cpp
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(24,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1251,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1273,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1274,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1275,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1473,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1481,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1523,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2597,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2601,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2605,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
 C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2609,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file 'Gambling.cpp')
+  (compiling source file 'Header.cpp')
   
-  Generating code
-  Compiler switch has changed, fall back to full compilation.
-  All 293 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  Gambling.vcxproj -> C:\Users\Hunorka1\source\repos\Gambling\x64\Release\Gambling.exe
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(70,31): error C3861: 'SDL_AllocFormat_renamed_SDL_GetPixelFormatDetails': identifier not found
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(118,40): warning C4267: 'argument': conversion from 'size_t' to 'const _Elem', possible loss of data
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(118,40): warning C4267:         with
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(118,40): warning C4267:         [
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(118,40): warning C4267:             _Elem=char
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(118,40): warning C4267:         ]
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(176,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
