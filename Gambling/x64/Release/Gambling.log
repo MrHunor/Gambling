@@ -1,6 +1,39 @@
 ﻿  Gambling.cpp
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1251,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1273,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1274,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1275,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1473,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1481,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1523,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2597,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2601,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2605,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2609,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gambling.cpp')
+  
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Compiler switch has changed, fall back to full compilation.
+  All 293 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   Gambling.vcxproj -> C:\Users\Hunorka1\source\repos\Gambling\x64\Release\Gambling.exe
