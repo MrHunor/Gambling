@@ -31,34 +31,7 @@
 #include "nanosvgrast.h"
 using namespace std;
 
-SDL_Texture* ExtractSubTexture(SDL_Renderer* renderer, SDL_Texture* source, SDL_Rect region) {
-    // Create a new texture with same size as the region
-    SDL_Texture* sub = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888,
-        SDL_TEXTUREACCESS_TARGET,
-        region.w, region.h);
-    if (!sub) {
-        SDL_Log("Failed to create sub-texture: %s", SDL_GetError());
-        return nullptr;
-    }
 
-    // Save the current render target
-    SDL_Texture* prevTarget = SDL_GetRenderTarget(renderer);
-
-    // Set render target to the new texture
-    SDL_SetRenderTarget(renderer, sub);
-
-    // Clear texture with transparent color (optional)
-    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0);
-    SDL_RenderClear(renderer);
-
-    // Copy from source texture to sub texture
-    SDL_RenderCopy(renderer, source, &region, nullptr);
-
-    // Restore previous render target
-    SDL_SetRenderTarget(renderer, prevTarget);
-
-    return sub;
-}
 
 bool RelaunchAsAdmin()
 {
