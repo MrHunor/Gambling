@@ -15,13 +15,13 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-
+	//402 startpoint on x for letters 450 for y
     SDL_Init(SDL_INIT_VIDEO);
     TTF_Init();
     HWND consoleWindow = GetConsoleWindow();
     SDL_Window* window = SDL_CreateWindow("SDL3", 1000, 1000,  0);
     SDL_Renderer* renderer = SDL_CreateRenderer(window, NULL);
-	TTF_Font* font = TTF_OpenFont("Poppins.ttf", 50);
+	TTF_Font* font = TTF_OpenFont("consolas.ttf", 100);
 	SDL_Color black = { 0, 0, 0, 255 };
 	SDL_Color white = { 255,255,255,0 };
     SDL_Surface* zeroSurface = TTF_RenderText_Solid(font, "0", 1, white);
@@ -44,7 +44,33 @@ int main(int argc, char* argv[]) {
 	SDL_Texture* sevenTexture = SDL_CreateTextureFromSurface(renderer, sevenSurface);
 	SDL_Texture* eightTexture = SDL_CreateTextureFromSurface(renderer, eightSurface);
 	SDL_Texture* nineTexture = SDL_CreateTextureFromSurface(renderer, nineSurface);
-	SDL_RenderTexture(renderer, zeroTexture, NULL, NULL);
+	SDL_FRect zeroZeroRect = { 402, 350, 55,100 };//x,y
+	SDL_FRect OneZeroRect = { 467,350,55,100 };
+	SDL_FRect TwoZeroRect = { 532,350,55,100 };
+	SDL_FRect zeroOneRect = { 402, 450, 55,100 };
+	SDL_FRect OneOneRect = { 467, 450, 55,100 };
+	SDL_FRect TwoOneRect = { 532, 450, 55,100 };
+	SDL_FRect zeroTwoRect = { 402, 550, 55,100 };
+	SDL_FRect OneTwoRect = { 467, 550, 55,100 };
+	SDL_FRect TwoTwoRect = { 532, 550, 55,100 };
+	while (true)
+	{
+		//Gamestart
+		SDL_RenderTexture(renderer, zeroTexture, 0, &zeroOneRect);
+		SDL_RenderTexture(renderer, zeroTexture, 0, &OneOneRect);
+		SDL_RenderTexture(renderer, zeroTexture, 0, &TwoOneRect);
+		
+		
+		
+		
+		
+		SDL_RenderPresent(renderer);
+		
+
+	}
+
+
+
 	SDL_RenderPresent(renderer);
 	SDL_Delay(10000);
     SetForegroundWindow(consoleWindow);
