@@ -24,7 +24,10 @@ int main(int argc, char* argv[]) {
 	TTF_Font* font = TTF_OpenFont("consolas.ttf", 100);
 	SDL_Color black = { 0, 0, 0, 255 };
 	SDL_Color white = { 255,255,255,0 };
-    SDL_Surface* zeroSurface = TTF_RenderText_Solid(font, "0", 1, white);
+	Uint64 now = SDL_GetTicks();
+	Uint64 last = now;
+
+	SDL_Surface* zeroSurface = TTF_RenderText_Solid(font, "0", 1, white);
 	SDL_Surface* oneSurface = TTF_RenderText_Solid(font, "1", 1, white);
 	SDL_Surface* twoSurface = TTF_RenderText_Solid(font, "2", 1, white);
 	SDL_Surface* threeSurface = TTF_RenderText_Solid(font, "3", 1, white);
@@ -53,14 +56,30 @@ int main(int argc, char* argv[]) {
 	SDL_FRect zeroTwoRect = { 402, 550, 55,100 };
 	SDL_FRect OneTwoRect = { 467, 550, 55,100 };
 	SDL_FRect TwoTwoRect = { 532, 550, 55,100 };
-	
-	
+	SDL_Texture* P1;
+	SDL_Texture* P2;
+	SDL_Texture* P3;
+	SDL_Texture* P4;
+	SDL_Texture* P5;
+	SDL_Texture* P6;
+	SDL_Texture* P7;
+	SDL_Texture* P8;
+	SDL_Texture* P9;
 	while (true)
 	{
 		//Gamestart
+		P1 = rT;
+		P2 = rT;
+		P3 = rT;
+		P4 = rT;
+		P5 = rT;
+		P6 = rT;
+
+
 		SDL_RenderTexture(renderer, zeroTexture, 0, &zeroOneRect);
 		SDL_RenderTexture(renderer, zeroTexture, 0, &OneOneRect);
 		SDL_RenderTexture(renderer, zeroTexture, 0, &TwoOneRect);
+
 		SDL_RenderTexture(renderer, rT, 0, &zeroZeroRect);
 		SDL_RenderTexture(renderer, rT, 0, &OneZeroRect);
 		SDL_RenderTexture(renderer, rT, 0, &TwoZeroRect);
@@ -68,8 +87,35 @@ int main(int argc, char* argv[]) {
 		SDL_RenderTexture(renderer, rT, 0, &OneTwoRect);
 		SDL_RenderTexture(renderer, rT, 0, &TwoTwoRect);
 		SDL_RenderPresent(renderer);
-		SDL_Delay(100000);
+		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+		while (true)
+		{
+			now = SDL_GetTicks();
+			if (now - last>100)
+			{
+				
+				last = SDL_GetTicks();
+				zeroZeroRect.y += 10;
+				OneZeroRect.y += 10;
+				TwoZeroRect.y += 10;
+				zeroOneRect.y += 10;
+				OneOneRect.y += 10;
+				TwoOneRect.y += 10;
+				zeroTwoRect.y += 10;
+				OneTwoRect.y += 10;
+				TwoTwoRect.y += 10;
+				SDL_RenderClear(renderer);
+				SDL_RenderTexture(renderer, rT, 0, &zeroZeroRect);
+				SDL_RenderTexture(renderer, rT, 0, &OneZeroRect);
+				SDL_RenderTexture(renderer, rT, 0, &TwoZeroRect);
+				SDL_RenderTexture(renderer, rT, 0, &zeroTwoRect);
+				SDL_RenderTexture(renderer, rT, 0, &OneTwoRect);
+				SDL_RenderTexture(renderer, rT, 0, &TwoTwoRect);
+				SDL_RenderPresent(renderer);
+			}
 
+
+		}
 	}
 
 
