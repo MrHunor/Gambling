@@ -1,7 +1,47 @@
-﻿  Gambling.cpp
+﻿  Header.cpp
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(24,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1251,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1273,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1274,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1275,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1473,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1481,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(1523,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2597,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2601,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2605,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\nanosvg.h(2609,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(65,40): warning C4267: 'argument': conversion from 'size_t' to 'const _Elem', possible loss of data
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(65,40): warning C4267:         with
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(65,40): warning C4267:         [
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(65,40): warning C4267:             _Elem=char
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(65,40): warning C4267:         ]
   Generating code
-  3 of 293 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+C:\Users\Hunorka1\source\repos\Gambling\Gambling\Header.cpp(366): warning C4715: 'randomTexture': not all control paths return a value
+  24 of 316 functions ( 7.6%) were compiled, the rest were copied from previous compilation.
+    21 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Gambling.vcxproj -> C:\Users\Hunorka1\source\repos\Gambling\x64\Release\Gambling.exe

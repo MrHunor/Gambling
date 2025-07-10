@@ -42,3 +42,4 @@ extern bool writeToFile(const std::string& filename, const std::string& content)
 extern bool fileExists(const std::string& filename);
 extern std::string pad16(const std::string& input);
 extern std::string unpad(const std::string& padded);
+extern SDL_Texture* randomTexture(SDL_Texture* T0, SDL_Texture* T1, SDL_Texture* T2, SDL_Texture* T3, SDL_Texture* T4, SDL_Texture* T5, SDL_Texture* T6, SDL_Texture* T7, SDL_Texture* T8, SDL_Texture* T9);

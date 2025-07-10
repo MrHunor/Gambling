@@ -11,7 +11,7 @@
 #include <string>
 #include <math.h>
 #define NANOSVG_IMPLEMENTATION
-
+#define rT randomTexture(zeroTexture, oneTexture, twoTexture, threeTexture, fourTexture, fiveTexture, sixTexture, sevenTexture, eightTexture, nineTexture)
 using namespace std;
 
 int main(int argc, char* argv[]) {
@@ -53,19 +53,22 @@ int main(int argc, char* argv[]) {
 	SDL_FRect zeroTwoRect = { 402, 550, 55,100 };
 	SDL_FRect OneTwoRect = { 467, 550, 55,100 };
 	SDL_FRect TwoTwoRect = { 532, 550, 55,100 };
+	
+	
 	while (true)
 	{
 		//Gamestart
 		SDL_RenderTexture(renderer, zeroTexture, 0, &zeroOneRect);
 		SDL_RenderTexture(renderer, zeroTexture, 0, &OneOneRect);
 		SDL_RenderTexture(renderer, zeroTexture, 0, &TwoOneRect);
-		
-		
-		
-		
-		
+		SDL_RenderTexture(renderer, rT, 0, &zeroZeroRect);
+		SDL_RenderTexture(renderer, rT, 0, &OneZeroRect);
+		SDL_RenderTexture(renderer, rT, 0, &TwoZeroRect);
+		SDL_RenderTexture(renderer, rT, 0, &zeroTwoRect);
+		SDL_RenderTexture(renderer, rT, 0, &OneTwoRect);
+		SDL_RenderTexture(renderer, rT, 0, &TwoTwoRect);
 		SDL_RenderPresent(renderer);
-		
+		SDL_Delay(100000);
 
 	}
 

@@ -33,6 +33,8 @@ using namespace std;
 
 
 
+
+
 bool RelaunchAsAdmin()
 {
     wchar_t exePath[MAX_PATH];
@@ -116,15 +118,11 @@ void TerminalError(string message, HWND consoleWindow)
 
 
 
-int random(int lower_bound, int upper_bound)
-{
-    srand(time(0));
-
-
-    return rand() % (upper_bound - lower_bound + 1)
-        + lower_bound;
-
-
+int random(int lower_bound, int upper_bound) { //God thank chatgpt
+    static std::random_device rd;
+    static std::mt19937 gen(rd());
+    std::uniform_int_distribution<> distrib(lower_bound, upper_bound);
+    return distrib(gen);
 }
 
 bool yes_or_no_random()
@@ -326,4 +324,43 @@ bool brute_force_password(string current_guess/*Leave this empty ("")*/, const s
     }
 
     return false;
+}
+
+SDL_Texture* randomTexture(SDL_Texture* T0, SDL_Texture* T1, SDL_Texture* T2, SDL_Texture* T3, SDL_Texture* T4, SDL_Texture* T5, SDL_Texture* T6, SDL_Texture* T7, SDL_Texture* T8, SDL_Texture* T9)
+{
+
+    switch (random(0, 9))
+    {
+    case 0:
+        return T0;
+        break;
+    case 1:
+        return T1;
+        break;
+    case 2:
+        return T2;
+        break;
+    case 3:
+        return T3;
+        break;
+    case 4:
+        return T4;
+        break;
+    case 5:
+        return T5;
+        break;
+    case 6:
+        return T6;
+        break;
+    case 7:
+        return T7;
+        break;
+    case 8:
+        return T8;
+        break;
+    case 9:
+        return T9;
+        break;
+    }
+
 }
