@@ -1,7 +1,50 @@
 ﻿  Gambling.cpp
+C:\Users\hunor\source\repos\Gambling\Gambling\Gambling.cpp(65,15): warning C4101: 'P7': unreferenced local variable
+C:\Users\hunor\source\repos\Gambling\Gambling\Gambling.cpp(67,15): warning C4101: 'P9': unreferenced local variable
+C:\Users\hunor\source\repos\Gambling\Gambling\Gambling.cpp(66,15): warning C4101: 'P8': unreferenced local variable
+  Header.cpp
+C:\Users\hunor\source\repos\Gambling\Gambling\Header.cpp(24,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(1251,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(1273,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(1274,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(1275,20): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(1473,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(1481,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(1523,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(2597,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(2601,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(2605,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\nanosvg.h(2609,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Header.cpp')
+  
+C:\Users\hunor\source\repos\Gambling\Gambling\Header.cpp(65,40): warning C4267: 'argument': conversion from 'size_t' to 'const _Elem', possible loss of data
+C:\Users\hunor\source\repos\Gambling\Gambling\Header.cpp(65,40): warning C4267:         with
+C:\Users\hunor\source\repos\Gambling\Gambling\Header.cpp(65,40): warning C4267:         [
+C:\Users\hunor\source\repos\Gambling\Gambling\Header.cpp(65,40): warning C4267:             _Elem=char
+C:\Users\hunor\source\repos\Gambling\Gambling\Header.cpp(65,40): warning C4267:         ]
   Generating code
-  1 of 316 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Compiler switch has changed, fall back to full compilation.
+C:\Users\hunor\source\repos\Gambling\Gambling\Header.cpp(366): warning C4715: 'randomTexture': not all control paths return a value
+  All 315 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  Gambling.vcxproj -> C:\Users\Hunorka1\source\repos\Gambling\x64\Release\Gambling.exe
+  Gambling.vcxproj -> C:\Users\hunor\source\repos\Gambling\x64\Release\Gambling.exe
